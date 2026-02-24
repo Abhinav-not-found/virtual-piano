@@ -1,3 +1,4 @@
+var intro = document.getElementById('intro')
 var btn = document.querySelector('button')
 var body = document.body
 var btnA = document.getElementById('btnA')
@@ -101,3 +102,9 @@ body.addEventListener('keydown',(e)=>{
     },400)
     
 })
+
+setTimeout(() => {
+  intro.style.transform = 'translateY(-100%)'
+}, 1000);
+
+
